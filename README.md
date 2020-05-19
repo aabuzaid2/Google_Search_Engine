@@ -2,9 +2,13 @@
 The way this program functions is as follows:
 when you first run the code it immediately reads the input websites file, after that it prompts you to pick one of 4 options. Either to update the stored information via the update file, search by inputting keywords, output all the stored information for you to see on screen , or exit.
 
-Input: The input is based on two files, one for websites and another for keywords. The websites file must be written in comma separated list format. First, the website name then followed by a list of hyperlinks which this website links to. As for the keywords file, it is also in a comma separate list format with the keyword written first followed by a list of websites which have this keyword
-
 Note: In this repository there are sample files for everything that is need, i.e. you could run the code without adding anything.
+
+For more details regarding how the program functions keep reading...
+
+
+
+Input: The input is based on two files, one for websites and another for keywords. The websites file must be written in comma separated list format. First, the website name then followed by a list of hyperlinks which this website links to. As for the keywords file, it is also in a comma separate list format with the keyword written first followed by a list of websites which have this keyword
 
 Update: this option opens the update file, reads the information there and updates according to that. The update file has to be written in a certain format. Each line must start with either A (add), R (remove), or U (update). For the A, it must be followed by a comma then a website. The same format is applied for R. But for U you need to first add a comma then the website name then another comma followed by the number of impressions, then another comma and the number of clicks, and finally another comma then a space separated list in which you can add or remove hyperlinks.
 
